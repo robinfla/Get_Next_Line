@@ -1,4 +1,10 @@
-#ifndef __GET_NEXT_LINE__
-# define __GET_NEXT_LINE__
+#ifndef __GET_NEXT_LINE_H__
+# define __GET_NEXT_LINE_H__
+# define BUFF_SIZE 4096
+# include <stdlib.h>
+# include <stdio.h>
+# include <fcntl.h>
+# include <unistd.h>
+# include "libft/includes/libft.h"
 
 #endif
